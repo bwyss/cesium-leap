@@ -41,7 +41,7 @@ if (typeof require === 'function' && require.config) {
         expect(1);
         var cesiumLeap = new CesiumLeap({});
         strictEqual(cesiumLeap.version,
-            '0.0.1',"CesiumLeap Version is: " + cesiumLeap.version);
+            '0.0.5',"CesiumLeap Version is: " + cesiumLeap.version);
     });
 
     test('leap version test', function () {
