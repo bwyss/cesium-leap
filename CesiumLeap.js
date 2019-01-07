@@ -5,7 +5,7 @@
 define(function (require) {
     'use strict';
     var Leap = require('Leap');
-    var version = "0.0.5";
+    var version = "0.0.6";
 
 	var CesiumLeap = function(options){
 		var cesiumLeap = this;
